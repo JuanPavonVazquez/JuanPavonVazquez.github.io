@@ -1,0 +1,66 @@
+:root{
+    --color-primary:#de97dd;
+    --color-secundary:#9D4DAD;
+}
+
+ a, a:visited, a:hover{
+    color: var(--color-primary);
+    text-decoration: none !important;
+}
+
+header{
+    background-color: var(--color-secundary);
+    color: whitesmoke;
+    width: 100%;
+    padding: 5px;
+    font-size: 30px;
+    
+}
+
+body{
+    margin: 0px;
+}
+
+footer{
+    background-color: var(--color-secundary);
+    height: 50px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+footer a {
+    color: var(--color-primary);
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.fa-linkedin:before{
+    font-size: 30px;
+}
+.container{
+    padding-top: 10px;
+
+}
+
+.card{
+    background-color: #4B5348;
+    color: var(--color-primary);
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin: 30px 20px;
+
+
+}
+
+.card:hover{
+    opacity: 0.8;
+}
+
+.contenedor{
+    width: 150px;
+    height: 200px;
+}
